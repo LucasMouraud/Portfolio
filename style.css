@@ -1,0 +1,23 @@
+html{
+    font-family: 'Roboto Slab', serif;
+}
+
+header{
+    line-height: 40%;
+    margin-bottom: 15%;
+}
+h1, h2,p, form {
+    text-align: center;
+}
+
+footer{
+    margin-top: 10%;
+}
+.lien-linkedin{
+    padding-left: 15%;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-modern-glowing-wave-transparent-background_1055-5178.jpg?size=338c&ext=jpg");
+    background-size: 50%;
+}
