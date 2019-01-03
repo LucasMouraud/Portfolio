@@ -5,19 +5,20 @@ html{
 header{
     line-height: 40%;
     margin-bottom: 15%;
+    margin-top : 2%;
 }
-h1, h2,p, form {
+
+body {
+    background-image: url("https://raw.githubusercontent.com/LucasMouraud/Portfolio/master/images/3132.jpg");
+    background-size: 100%;
     text-align: center;
+    background-repeat: no-repeat;
 }
 
 footer{
     margin-top: 10%;
 }
 .lien-linkedin{
-    padding-left: 15%;
+    padding-left: 80%;
 }
 
-body {
-    background-image: url("https://img.freepik.com/free-vector/abstract-modern-glowing-wave-transparent-background_1055-5178.jpg?size=338c&ext=jpg");
-    background-size: 50%;
-}
