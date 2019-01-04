@@ -16,7 +16,7 @@ body {
 }
 
 footer{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .lien-linkedin{
     margin-left: 80%;
@@ -57,5 +57,8 @@ footer{
     }
     #email {
         width: 50%;
+    }
+    footer {
+        margin-top: 10%;
     }
 }
