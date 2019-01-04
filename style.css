@@ -5,12 +5,12 @@ html{
 header{
     line-height: 40%;
     margin-bottom: 15%;
-    margin-top : 2%;
 }
 
 body {
+    min-height: 100vh;
     background-image: url("https://raw.githubusercontent.com/LucasMouraud/Portfolio/master/images/3132.jpg");
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     background-repeat: no-repeat;
 }
@@ -20,6 +20,7 @@ footer{
 }
 .lien-linkedin{
     margin-left: 80%;
+    margin-right: 2%;
 }
 
 .linkedin{
@@ -30,4 +31,31 @@ footer{
 .github {
     width: 5%;
     height: 5%;
+}
+
+#email {
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    text-align: center;
+}
+
+@media(max-width:650px) {
+    .linkedin {
+        width: 10%;
+        height: 10%;
+    }
+    .github {
+        width: 10.5%;
+        height: 10.5%;
+    }
+    .lien-linkedin {
+        margin-left: 70%;
+    }
+    header {
+        margin-bottom: 45%;
+    }
+    #email {
+        width: 50%;
+    }
 }
